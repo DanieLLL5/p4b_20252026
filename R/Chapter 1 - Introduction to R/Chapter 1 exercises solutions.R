@@ -192,7 +192,7 @@ performance = c('poor', 'poor', 'good', 'excellent', 'excellent', 'good', 'good'
 performance = factor(performance, levels = c("poor", "good", "excellent"), ordered = TRUE)
 performance
 
-# Comparing the values
-performance[1] > performance[2]
 as.integer(performance)
+# Comparing the values of 2 sales representatives
+performance[4] > performance[3]
 
