@@ -166,6 +166,11 @@ region2 <- factor(c('south', 'south', 'west'))
 levels(region2) <- levels(region)
 levels(region2)
 
+# OR 
+region2 <- factor(c('south', 'south', 'west'), levels=levels(region))
+region2
+
+
 #c)
 region3 <- factor(x = c('west', 'south', 'central', 'south'), levels = levels(region))
 region3 # The value central is assigned as NA since it is not in the levels of the factor
@@ -186,4 +191,8 @@ factor(region[1:3]) # If we do it like this we only keep the levels of the selec
 performance = c('poor', 'poor', 'good', 'excellent', 'excellent', 'good', 'good')
 performance = factor(performance, levels = c("poor", "good", "excellent"), ordered = TRUE)
 performance
+
+# Comparing the values
+performance[1] > performance[2]
+as.integer(performance)
 
