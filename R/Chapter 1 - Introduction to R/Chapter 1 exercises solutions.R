@@ -170,7 +170,6 @@ levels(region2)
 region2 <- factor(c('south', 'south', 'west'), levels=levels(region))
 region2
 
-
 #c)
 region3 <- factor(x = c('west', 'south', 'central', 'south'), levels = levels(region))
 region3 # The value central is assigned as NA since it is not in the levels of the factor
