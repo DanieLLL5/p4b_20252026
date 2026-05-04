@@ -47,3 +47,10 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Specific files (if you only want some)
+adidas_us_sales.rds
+supermarket_sales1.csv
+supermarket_sales1.txt
+supermarket_sales1.xlsx
+supermarket_sales2.xlsx
