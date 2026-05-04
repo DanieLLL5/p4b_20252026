@@ -19,7 +19,10 @@
 /*.Rcheck/
 
 # RStudio files
-.Rproj
+.Rproj.user/
+
+# Rproject
+p4b_20252026.Rproj
 
 # produced vignettes
 vignettes/*.html
@@ -54,3 +57,4 @@ supermarket_sales1.csv
 supermarket_sales1.txt
 supermarket_sales1.xlsx
 supermarket_sales2.xlsx
+
