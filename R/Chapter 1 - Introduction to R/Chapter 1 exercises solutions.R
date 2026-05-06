@@ -195,3 +195,42 @@ as.integer(performance)
 # Comparing the values of 2 sales representatives
 performance[4] > performance[3]
 
+# 6. Lists
+# 6.1.
+employee <- list(1999001, 'John Smith', c(8700, 7300, 9500, 7000, 8200), TRUE)
+names(employee) <- c('id', 'name', 'sales', 'employed')
+employee
+
+# or
+employee <- list(id = 1999001, name = 'John Smith', sales = c(8700, 7300, 9500, 7000, 8200), employed = TRUE)
+
+# 6.2.
+str(employee)
+
+# 6.3.
+employee[1]
+typeof(employee[1])
+
+employee[[1]]
+typeof(employee[[1]])
+
+# 6.4.
+employee$salary <- 50000
+
+# 6.5.
+employee <- c(employee, gender = 'male', managers = list(c('Emily White', 'Michael Davis')))
+employee
+
+# 6.6.
+employee[[3]] <- c(employee[[3]], 10000)
+employee
+
+# OR
+employee$sales <- c(employee$sales, 10000)
+
+# 6.7.
+employee$salary <- NULL
+employee
+
+# 6.8.
+length(employee)

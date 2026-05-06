@@ -22,9 +22,6 @@ library(openxlsx)
 write.xlsx(smsales, 'supermarket_sales1.xlsx')
 
 #c)
-# Uncomment the cell below if openxlsx is not installed
-#install.packages('openxlsx')
-library(openxlsx)
 smsales1 <- read_xlsx('supermarket_sales1.xlsx') # output is a dataframe
 
 # Another way of doing it with package readxl
@@ -42,3 +39,4 @@ head(smsales2)
 
 #e)
 write.xlsx(smsales2, 'supermarket_sales2.xlsx')
+
