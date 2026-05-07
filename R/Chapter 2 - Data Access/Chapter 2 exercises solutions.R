@@ -22,7 +22,7 @@ library(openxlsx)
 write.xlsx(smsales, 'supermarket_sales1.xlsx')
 
 #c)
-smsales1 <- read_xlsx('supermarket_sales1.xlsx') # output is a dataframe
+smsales1 <- read.xlsx('supermarket_sales1.xlsx') # output is a dataframe
 
 # Another way of doing it with package readxl
 #install.packages('readxl')
