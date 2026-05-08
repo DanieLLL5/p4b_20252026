@@ -41,3 +41,18 @@ head(smsales2)
 #e)
 write.xlsx(smsales2, 'supermarket_sales2.xlsx')
 
+# 2.
+#a)
+walmart <- read.table('Data/walmart_sales.txt',
+                      col.names = c('Store', 'Dept', 'Week',
+                                    'Weekly_Sales', 'IsHoliday'))
+#b)
+dim(walmart)
+
+# 3.
+#b)
+saveRDS(adidas_us_sales, 'adidas_us_sales.rds')
+
+#c)
+adidas_us_sales1 <- readRDS('adidas_us_sales.rds')
+head(adidas_us_sales1) # Checking 6 of the rows of the dataset
