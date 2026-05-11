@@ -53,11 +53,11 @@ rsconnect/
 
 # Specific files 
 # Chapter 2
-Chapter 2 - Data Access/adidas_us_sales.rdsadidas_us_sales.rds
-Chapter 2 - Data Access/adidas_us_sales.rdssupermarket_sales1.csv
-Chapter 2 - Data Access/adidas_us_sales.rdssupermarket_sales1.txt
-Chapter 2 - Data Access/adidas_us_sales.rdssupermarket_sales1.xlsx
-Chapter 2 - Data Access/adidas_us_sales.rdssupermarket_sales2.xlsx
+R/Chapter 2 - Data Access/adidas_us_sales.rdsadidas_us_sales.rds
+R/Chapter 2 - Data Access/adidas_us_sales.rdssupermarket_sales1.csv
+R/Chapter 2 - Data Access/adidas_us_sales.rdssupermarket_sales1.txt
+R/Chapter 2 - Data Access/adidas_us_sales.rdssupermarket_sales1.xlsx
+R/Chapter 2 - Data Access/adidas_us_sales.rdssupermarket_sales2.xlsx
 
 # Chapter 3
 
