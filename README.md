@@ -18,6 +18,8 @@ It is organized into two main parts: **R** and **SAS**, covering different stage
 │   │   ├── Chapter 2 Exercises.pdf               # Exercise sheet for Chapter 2
 │   │   ├── Data                        # Folder containing the required datasets for doing the exercises
 │   │   ├── Chapter 2 exercises solutions.R       # R script with solutions
+│   ├── Chapter 3 - Data Modification/
+│   │   ├── Data/                       # Raw datasets
 │   ├── Quizzes/                        # In-class multiple choice quizzes
 │   │   └── Quiz materials (various)
 │
