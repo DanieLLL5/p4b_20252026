@@ -15,7 +15,7 @@ It is organized into two main parts: **R** and **SAS**, covering different stage
 │   │   ├── Chapter 1 Exercises.pdf               # Exercise sheet for Chapter 1
 │   │   ├── Chapter 1 exercises solutions.R       # R script with solutions
 |   ├── Chapter 2 - Data Access/
-│   │   ├── Data                        # Folder containing the required datasets for doing the exercises
+│   │   ├── Data/                       # Folder containing the required datasets for doing the exercises
 │   │   ├── Chapter 2 Exercises.pdf               # Exercise sheet for Chapter 2
 │   │   ├── Chapter 2 exercises solutions.R       # R script with solutions
 │   ├── Chapter 3 - Data Modification/
