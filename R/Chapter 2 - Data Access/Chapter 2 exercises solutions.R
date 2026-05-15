@@ -4,7 +4,7 @@
 getwd()
 
 # Changing the working directory to the folder of chapter 2
-setwd('C:/Users/danie/Downloads/p4b_20252026/R/Chapter 2 - Data Access')
+setwd('C:/Users/dcaridade/Downloads/p4b_20252026/R/Chapter 2 - Data Access')
 
 # Checking if the change was made
 getwd()

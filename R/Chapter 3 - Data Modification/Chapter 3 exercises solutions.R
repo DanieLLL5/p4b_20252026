@@ -7,7 +7,7 @@ library(tidyverse)
 library(dplyr)
 
 # Setting up the working directory
-setwd('C:/Users/danie/Downloads/P4B/R module/Chapter 3 - Data Modification/Exercises')
+setwd('C:/Users/dcaridade/Downloads/p4b_20252026/R/Chapter 3 - Data Modification')
 getwd()
 
 # 1. Data Modification
@@ -30,3 +30,5 @@ arrange(adidas_us_sales, Operating_Profit)
 
 #d)
 select(adidas_us_sales, Retailer, Invoice_Date, Total_Sales, Operating_Margin)
+
+
